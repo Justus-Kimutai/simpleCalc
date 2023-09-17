@@ -68,6 +68,7 @@ span{
 }
 .contentCirle:hover{
     background: rgb(0, 0, 146);
+    cursor: pointer;
 }
 .menuBar{
     text-align: right;
