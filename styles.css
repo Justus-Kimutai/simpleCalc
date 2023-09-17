@@ -1,0 +1,78 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+
+    background: rgb(16, 16, 252);
+    color: #fff;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+span{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: rgb(0, 0, 88);
+    padding: 2em;
+    border-radius: 20px;
+}
+.displayScreen{
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+
+   color: #f8d825;
+}
+.menuBar-Btn{
+    background-color: #f8d825;
+    color: rgb(0, 0, 88);
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    padding: .2em .75em;
+}
+
+.menuBar-Btn:hover{
+    background: #b8a01a;
+}
+
+.valueRow{
+    margin-top: .5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentCirle{
+    background: rgb(16, 16, 252);
+    margin: 0 .2em;
+
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+    font-size: 1.2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentCirle:hover{
+    background: rgb(0, 0, 146);
+}
+.menuBar{
+    text-align: right;
+}
+
+.contentCirle-delete--btn{
+    color: red;
+}
