@@ -42,7 +42,6 @@ function splitStringAndCompute(element){
         let ans = operate(op,num1,num2)
         displayScreen.textContent = `${ans}${element.innerHTML}`
         currVal = `${ans}${element.innerHTML}`
-        console.log(ans)
     }
     else{
         populateScreen(element)
